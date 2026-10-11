@@ -1,0 +1,12 @@
+test_hand_calculated_frequencies (test_pipeline.FrequencyTests.test_hand_calculated_frequencies) ... ok
+test_invalid_configuration (test_pipeline.FrequencyTests.test_invalid_configuration) ... ok
+test_parallel_batches_match_serial (test_pipeline.FrequencyTests.test_parallel_batches_match_serial) ... ok
+test_random_against_subset_membership_oracle (test_pipeline.FrequencyTests.test_random_against_subset_membership_oracle) ... ok
+test_complement_baseline_and_support (test_pipeline.SalaryTests.test_complement_baseline_and_support) ... ok
+test_postgres_arrays_preserve_punctuation (test_pipeline.SourceTests.test_postgres_arrays_preserve_punctuation) ... ok
+test_stream_handles_utf8_split_and_no_final_newline (test_pipeline.SourceTests.test_stream_handles_utf8_split_and_no_final_newline) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.149s
+
+OK

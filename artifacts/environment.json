@@ -1,0 +1,13 @@
+{
+  "platform": "macOS-26.3.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "python": "3.12.14",
+  "logical_cpus": 14,
+  "physical_cpus": 14,
+  "ram_bytes": 51539607552,
+  "duckdb": "1.5.6",
+  "rustfs_version": "rustfs 1.0.1\nbuild time   : 2026-10-03 02:59:34 +00:00\nbuild profile: release\nbuild os     : macos-aarch64\nrust version : rustc 1.99.0 (b940084d7 2026-09-28)\nrust channel : stable-aarch64-apple-darwin\ngit branch   : \ngit commit   : 6de965ae3c965a78ff819fbcd7acd4aa44177d92\ngit tag      : 1.0.1\ngit status   :",
+  "rustfs_binary_sha256": "6a37dbb79bd5da3d6fec1cf2c50171face2cf8288d7337885c9b12fa414da73b",
+  "endpoint": "http://127.0.0.1:19010",
+  "scope": "One machine; client process tree and RustFS measured separately"
+}

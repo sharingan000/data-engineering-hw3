@@ -1,0 +1,1 @@
+{"method": "duckdb", "pid": 60757, "workers": 2, "rows": 100, "core_seconds": 0.13780958321876824, "cpu_seconds": 0.13999, "distinct_combinations": {"1": 132, "2": 915, "3": 3495}}

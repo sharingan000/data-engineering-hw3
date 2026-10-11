@@ -1,0 +1,26 @@
+{
+  "pilot": {
+    "equal": true,
+    "compared_runs": 3,
+    "rows_in_each_result": 4542,
+    "comparison": "Exact equality of every (size, skills, frequency) row; no tolerances",
+    "distinct_combinations": {
+      "1": 132,
+      "2": 915,
+      "3": 3495
+    },
+    "result_sha256": "e70d056d76538db21183e352663e130dfd3338d8f0fa0e9d7235c4d37b869946"
+  },
+  "full": {
+    "equal": true,
+    "compared_runs": 15,
+    "rows_in_each_result": 33456,
+    "comparison": "Exact equality of every (size, skills, frequency) row; no tolerances",
+    "distinct_combinations": {
+      "1": 587,
+      "2": 5811,
+      "3": 27058
+    },
+    "result_sha256": "df66db9869ab052a2db76cab4cd7c61f5488578d69bba7cca53e903bb144030d"
+  }
+}

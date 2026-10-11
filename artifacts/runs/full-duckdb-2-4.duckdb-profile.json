@@ -1,0 +1,138 @@
+{
+    "total_memory_allocated": 8388608,
+    "total_bytes_written": 0,
+    "total_bytes_read": 0,
+    "system_peak_temp_dir_size": 0,
+    "system_peak_buffer_memory": 74027112,
+    "rows_returned": 33456,
+    "result_set_size": 2968384,
+    "latency": 0.024906875,
+    "wal_replay_entry_count": 0,
+    "extra_info": {},
+    "commit_local_storage_latency": 0.0,
+    "attach_load_storage_latency": 0.0,
+    "query_name": "SELECT size, skills, count(*) FROM combinations GROUP BY ALL",
+    "cpu_time": 0.008399216,
+    "checkpoint_latency": 0.0,
+    "cumulative_cardinality": 208938,
+    "waiting_to_attach_latency": 0.0,
+    "write_to_wal_latency": 0.0,
+    "attach_replay_wal_latency": 0.0,
+    "blocked_thread_time": 0.0,
+    "cumulative_rows_scanned": 47342,
+    "children": [
+        {
+            "system_peak_temp_dir_size": 0,
+            "result_set_size": 2968384,
+            "operator_type": "PROJECTION",
+            "operator_timing": 0.000010001000000000001,
+            "operator_rows_scanned": 0,
+            "extra_info": {
+                "Projections": [
+                    "__internal_decompress_integral_integer(#0, 1)",
+                    "#1",
+                    "#2"
+                ],
+                "Estimated Cardinality": "39928"
+            },
+            "system_peak_buffer_memory": 0,
+            "cumulative_rows_scanned": 47342,
+            "cpu_time": 0.006633424,
+            "operator_name": "PROJECTION",
+            "cumulative_cardinality": 208938,
+            "operator_cardinality": 33456,
+            "children": [
+                {
+                    "cumulative_cardinality": 175482,
+                    "operator_cardinality": 33456,
+                    "cumulative_rows_scanned": 47342,
+                    "operator_name": "HASH_GROUP_BY",
+                    "cpu_time": 0.006623423,
+                    "operator_rows_scanned": 0,
+                    "system_peak_buffer_memory": 0,
+                    "extra_info": {
+                        "Groups": [
+                            "#0",
+                            "#1"
+                        ],
+                        "Aggregates": "count_star()",
+                        "Estimated Cardinality": "39928"
+                    },
+                    "operator_timing": 0.005921711,
+                    "system_peak_temp_dir_size": 0,
+                    "result_set_size": 2933552,
+                    "operator_type": "HASH_GROUP_BY",
+                    "children": [
+                        {
+                            "system_peak_temp_dir_size": 0,
+                            "result_set_size": 3426254,
+                            "operator_type": "PROJECTION",
+                            "operator_timing": 0.0000012079999999999995,
+                            "operator_rows_scanned": 0,
+                            "extra_info": {
+                                "Projections": [
+                                    "size",
+                                    "skills"
+                                ],
+                                "Estimated Cardinality": "47342"
+                            },
+                            "system_peak_buffer_memory": 0,
+                            "cumulative_rows_scanned": 47342,
+                            "cpu_time": 0.0007017120000000003,
+                            "operator_name": "PROJECTION",
+                            "cumulative_cardinality": 142026,
+                            "operator_cardinality": 47342,
+                            "children": [
+                                {
+                                    "cumulative_cardinality": 94684,
+                                    "operator_cardinality": 47342,
+                                    "cumulative_rows_scanned": 47342,
+                                    "operator_name": "PROJECTION",
+                                    "cpu_time": 0.0007005040000000002,
+                                    "operator_rows_scanned": 0,
+                                    "system_peak_buffer_memory": 0,
+                                    "extra_info": {
+                                        "Projections": [
+                                            "__internal_compress_integral_utinyint(#0, 1)",
+                                            "#1"
+                                        ],
+                                        "Estimated Cardinality": "47342"
+                                    },
+                                    "operator_timing": 0.000022958999999999995,
+                                    "system_peak_temp_dir_size": 0,
+                                    "result_set_size": 3426254,
+                                    "operator_type": "PROJECTION",
+                                    "children": [
+                                        {
+                                            "system_peak_temp_dir_size": 0,
+                                            "result_set_size": 3601048,
+                                            "operator_type": "TABLE_SCAN",
+                                            "operator_timing": 0.0006775450000000002,
+                                            "operator_rows_scanned": 47342,
+                                            "extra_info": {
+                                                "Table": "memory.main.combinations",
+                                                "Type": "Sequential Scan",
+                                                "Projections": [
+                                                    "size",
+                                                    "skills"
+                                                ],
+                                                "Estimated Cardinality": "47342"
+                                            },
+                                            "system_peak_buffer_memory": 0,
+                                            "cumulative_rows_scanned": 47342,
+                                            "cpu_time": 0.0006775450000000002,
+                                            "operator_name": "SEQ_SCAN",
+                                            "cumulative_cardinality": 47342,
+                                            "operator_cardinality": 47342,
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

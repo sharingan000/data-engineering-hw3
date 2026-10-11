@@ -1,0 +1,20 @@
+{
+  "method": "mapreduce",
+  "pid": 60774,
+  "workers": 1,
+  "rows": 710,
+  "bytes": 217135,
+  "chunks": 4,
+  "http": 200,
+  "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50",
+  "map_tasks": 3,
+  "batch_rows": 250,
+  "chunk_bytes": 65536,
+  "core_seconds": 0.11165083316154778,
+  "cpu_seconds": 0.109428,
+  "distinct_combinations": {
+    "1": 587,
+    "2": 5811,
+    "3": 27058
+  }
+}

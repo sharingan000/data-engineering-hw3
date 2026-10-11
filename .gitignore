@@ -1,0 +1,12 @@
+.venv/
+.duckdb-extensions/
+.matplotlib/
+__pycache__/
+bin/
+runtime/
+tmp/
+data/IT_vacancies.csv
+data/source.zip
+data/*.part
+submission/
+.DS_Store

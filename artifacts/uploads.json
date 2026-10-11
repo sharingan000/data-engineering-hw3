@@ -1,0 +1,16 @@
+[
+  {
+    "key": "pilot.jsonl",
+    "bytes": 28707,
+    "sha256": "e7afdc085cc3f7f7f99aa19e60135b11b101b0d923b5f0a73386b55beb51aa8f",
+    "http": 200,
+    "etag": "\"f06367381855528a7f319571fb3b921d\""
+  },
+  {
+    "key": "full.jsonl",
+    "bytes": 217135,
+    "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50",
+    "http": 200,
+    "etag": "\"4074d0217406d460be82546bbabe448e\""
+  }
+]

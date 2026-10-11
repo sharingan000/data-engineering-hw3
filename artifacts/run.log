@@ -1,0 +1,2542 @@
+{"method": "mapreduce", "pid": 60753, "workers": 1, "rows": 100, "bytes": 28707, "chunks": 1, "http": 200, "sha256": "e7afdc085cc3f7f7f99aa19e60135b11b101b0d923b5f0a73386b55beb51aa8f", "map_tasks": 1, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.09227158315479755, "cpu_seconds": 0.088971, "distinct_combinations": {"1": 132, "2": 915, "3": 3495}, "end_to_end_seconds": 0.1735142080578953, "client_tree_peak_rss_bytes": 64733184, "rustfs_peak_rss_bytes": 99467264, "rss_samples": 9, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/pilot-mapreduce-1-1.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "pilot.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/pilot-mapreduce-1-1.json", "--workers", "1"], "source": "pilot", "repetition": 1}
+{"method": "mapreduce", "pid": 60754, "workers": 2, "rows": 100, "bytes": 28707, "chunks": 1, "http": 200, "sha256": "e7afdc085cc3f7f7f99aa19e60135b11b101b0d923b5f0a73386b55beb51aa8f", "map_tasks": 1, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.1363617079332471, "cpu_seconds": 0.13283799999999998, "distinct_combinations": {"1": 132, "2": 915, "3": 3495}, "end_to_end_seconds": 0.21136179193854332, "client_tree_peak_rss_bytes": 107397120, "rustfs_peak_rss_bytes": 99581952, "rss_samples": 11, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/pilot-mapreduce-2-1.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "pilot.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/pilot-mapreduce-2-1.json", "--workers", "2"], "source": "pilot", "repetition": 1}
+{"method": "duckdb", "pid": 60757, "workers": 2, "rows": 100, "core_seconds": 0.13780958321876824, "cpu_seconds": 0.13999, "distinct_combinations": {"1": 132, "2": 915, "3": 3495}, "end_to_end_seconds": 0.19067995785735548, "client_tree_peak_rss_bytes": 74088448, "rustfs_peak_rss_bytes": 100171776, "rss_samples": 10, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/pilot-duckdb-2-1.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "duckdb", "--key", "pilot.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/pilot-duckdb-2-1.json", "--workers", "2"], "source": "pilot", "repetition": 1}
+{"method": "mapreduce", "pid": 60759, "workers": 1, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.11517624999396503, "cpu_seconds": 0.11320499999999999, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.24851512489840388, "client_tree_peak_rss_bytes": 100220928, "rustfs_peak_rss_bytes": 108445696, "rss_samples": 13, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-1-1.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-1-1.json", "--workers", "1"], "source": "full", "repetition": 1}
+{"method": "mapreduce", "pid": 60760, "workers": 2, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.152601458132267, "cpu_seconds": 0.189974, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.28464241698384285, "client_tree_peak_rss_bytes": 133332992, "rustfs_peak_rss_bytes": 108445696, "rss_samples": 15, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-2-1.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-2-1.json", "--workers", "2"], "source": "full", "repetition": 1}
+{"method": "duckdb", "pid": 60764, "workers": 2, "rows": 710, "core_seconds": 0.10604008380323648, "cpu_seconds": 0.14607, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.22639870806597173, "client_tree_peak_rss_bytes": 131989504, "rustfs_peak_rss_bytes": 109395968, "rss_samples": 12, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-duckdb-2-1.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "duckdb", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-duckdb-2-1.json", "--workers", "2"], "source": "full", "repetition": 1}
+{"method": "duckdb", "pid": 60768, "workers": 2, "rows": 710, "core_seconds": 0.10583775001578033, "cpu_seconds": 0.15875, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.24102683295495808, "client_tree_peak_rss_bytes": 132366336, "rustfs_peak_rss_bytes": 110182400, "rss_samples": 13, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-duckdb-2-2.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "duckdb", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-duckdb-2-2.json", "--workers", "2"], "source": "full", "repetition": 2}
+{"method": "mapreduce", "pid": 60769, "workers": 2, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.16321229189634323, "cpu_seconds": 0.200712, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.3121722920332104, "client_tree_peak_rss_bytes": 128040960, "rustfs_peak_rss_bytes": 110329856, "rss_samples": 16, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-2-2.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-2-2.json", "--workers", "2"], "source": "full", "repetition": 2}
+{"method": "mapreduce", "pid": 60773, "workers": 1, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.11345575004816055, "cpu_seconds": 0.111342, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.24494162504561245, "client_tree_peak_rss_bytes": 107184128, "rustfs_peak_rss_bytes": 110362624, "rss_samples": 13, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-1-2.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-1-2.json", "--workers", "1"], "source": "full", "repetition": 2}
+{"method": "mapreduce", "pid": 60774, "workers": 1, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.11165083316154778, "cpu_seconds": 0.109428, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.23947087512351573, "client_tree_peak_rss_bytes": 101498880, "rustfs_peak_rss_bytes": 110362624, "rss_samples": 13, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-1-3.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-1-3.json", "--workers", "1"], "source": "full", "repetition": 3}
+{"method": "mapreduce", "pid": 60775, "workers": 2, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.1589309589471668, "cpu_seconds": 0.19763199999999997, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.28657316602766514, "client_tree_peak_rss_bytes": 129171456, "rustfs_peak_rss_bytes": 110362624, "rss_samples": 15, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-2-3.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-2-3.json", "--workers", "2"], "source": "full", "repetition": 3}
+{"method": "duckdb", "pid": 60779, "workers": 2, "rows": 710, "core_seconds": 0.11233304184861481, "cpu_seconds": 0.168986, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.2333447088021785, "client_tree_peak_rss_bytes": 135659520, "rustfs_peak_rss_bytes": 111624192, "rss_samples": 12, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-duckdb-2-3.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "duckdb", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-duckdb-2-3.json", "--workers", "2"], "source": "full", "repetition": 3}
+{"method": "duckdb", "pid": 60780, "workers": 2, "rows": 710, "core_seconds": 0.1072968749795109, "cpu_seconds": 0.153592, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.22328862501308322, "client_tree_peak_rss_bytes": 131055616, "rustfs_peak_rss_bytes": 111624192, "rss_samples": 12, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-duckdb-2-4.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "duckdb", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-duckdb-2-4.json", "--workers", "2"], "source": "full", "repetition": 4}
+{"method": "mapreduce", "pid": 60782, "workers": 2, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.1538111660629511, "cpu_seconds": 0.19183399999999998, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.28252966585569084, "client_tree_peak_rss_bytes": 132513792, "rustfs_peak_rss_bytes": 111624192, "rss_samples": 15, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-2-4.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-2-4.json", "--workers", "2"], "source": "full", "repetition": 4}
+{"method": "mapreduce", "pid": 60786, "workers": 1, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.10995904193259776, "cpu_seconds": 0.10768399999999999, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.23957387497648597, "client_tree_peak_rss_bytes": 101466112, "rustfs_peak_rss_bytes": 111624192, "rss_samples": 13, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-1-4.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-1-4.json", "--workers", "1"], "source": "full", "repetition": 4}
+{"method": "mapreduce", "pid": 60787, "workers": 1, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.11739787505939603, "cpu_seconds": 0.115164, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.24556837510317564, "client_tree_peak_rss_bytes": 100089856, "rustfs_peak_rss_bytes": 111624192, "rss_samples": 13, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-1-5.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-1-5.json", "--workers", "1"], "source": "full", "repetition": 5}
+{"method": "mapreduce", "pid": 60788, "workers": 2, "rows": 710, "bytes": 217135, "chunks": 4, "http": 200, "sha256": "66c3bcda44fdd2257ff17115a64f53af73bcbb6aed501354b0b943ff56474f50", "map_tasks": 3, "batch_rows": 250, "chunk_bytes": 65536, "core_seconds": 0.1567700421437621, "cpu_seconds": 0.19539299999999998, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.2865915419533849, "client_tree_peak_rss_bytes": 131842048, "rustfs_peak_rss_bytes": 111640576, "rss_samples": 15, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-mapreduce-2-5.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "mapreduce", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-mapreduce-2-5.json", "--workers", "2"], "source": "full", "repetition": 5}
+{"method": "duckdb", "pid": 60793, "workers": 2, "rows": 710, "core_seconds": 0.1079944591037929, "cpu_seconds": 0.15272299999999997, "distinct_combinations": {"1": 587, "2": 5811, "3": 27058}, "end_to_end_seconds": 0.22581925010308623, "client_tree_peak_rss_bytes": 134184960, "rustfs_peak_rss_bytes": 111738880, "rss_samples": 12, "sampling_interval_seconds": 0.005, "result_path": "artifacts/runs/full-duckdb-2-5.json", "command": ["/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/.venv/bin/python", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/pipeline.py", "duckdb", "--key", "full.jsonl", "--output", "/Users/karpov0o0/MAIN/SELF/itmo/term-5/data-engineering/homeworks/hw-3/artifacts/runs/full-duckdb-2-5.json", "--workers", "2"], "source": "full", "repetition": 5}
+{
+  "salary_cohort": {
+    "currency": "RUR",
+    "gross": false,
+    "n": 58,
+    "median_salary": 200000.0
+  },
+  "supported_contrasts": 41,
+  "regions": [
+    {
+      "region": "Москва",
+      "vacancies": 438,
+      "with_skills": 263,
+      "with_any_salary": 58,
+      "with_salary": 37,
+      "median_salary": 250000.0,
+      "q25": 150000.0,
+      "q75": 320000.0,
+      "skill_frequencies": [
+        {
+          "skill": "python",
+          "vacancies": 186
+        },
+        {
+          "skill": "sql",
+          "vacancies": 112
+        },
+        {
+          "skill": "machine learning",
+          "vacancies": 58
+        },
+        {
+          "skill": "ml",
+          "vacancies": 49
+        },
+        {
+          "skill": "spark",
+          "vacancies": 39
+        },
+        {
+          "skill": "big data",
+          "vacancies": 38
+        },
+        {
+          "skill": "hadoop",
+          "vacancies": 36
+        },
+        {
+          "skill": "data science",
+          "vacancies": 34
+        },
+        {
+          "skill": "pytorch",
+          "vacancies": 34
+        },
+        {
+          "skill": "математическая статистика",
+          "vacancies": 32
+        },
+        {
+          "skill": "машинное обучение",
+          "vacancies": 29
+        },
+        {
+          "skill": "linux",
+          "vacancies": 28
+        },
+        {
+          "skill": "nlp",
+          "vacancies": 28
+        },
+        {
+          "skill": "git",
+          "vacancies": 23
+        },
+        {
+          "skill": "математическое моделирование",
+          "vacancies": 23
+        },
+        {
+          "skill": "postgresql",
+          "vacancies": 21
+        },
+        {
+          "skill": "анализ данных",
+          "vacancies": 21
+        },
+        {
+          "skill": "airflow",
+          "vacancies": 20
+        },
+        {
+          "skill": "docker",
+          "vacancies": 19
+        },
+        {
+          "skill": "pandas",
+          "vacancies": 19
+        },
+        {
+          "skill": "computer vision",
+          "vacancies": 18
+        },
+        {
+          "skill": "data analysis",
+          "vacancies": 18
+        },
+        {
+          "skill": "etl",
+          "vacancies": 15
+        },
+        {
+          "skill": "аналитическое мышление",
+          "vacancies": 15
+        },
+        {
+          "skill": "opencv",
+          "vacancies": 14
+        },
+        {
+          "skill": "статистический анализ",
+          "vacancies": 14
+        },
+        {
+          "skill": "deep learning",
+          "vacancies": 13
+        },
+        {
+          "skill": "hive",
+          "vacancies": 13
+        },
+        {
+          "skill": "numpy",
+          "vacancies": 13
+        },
+        {
+          "skill": "tensorflow",
+          "vacancies": 12
+        },
+        {
+          "skill": "математический анализ",
+          "vacancies": 11
+        },
+        {
+          "skill": "базы данных",
+          "vacancies": 10
+        },
+        {
+          "skill": "bash",
+          "vacancies": 9
+        },
+        {
+          "skill": "английский язык",
+          "vacancies": 9
+        },
+        {
+          "skill": "c++",
+          "vacancies": 8
+        },
+        {
+          "skill": "kafka",
+          "vacancies": 8
+        },
+        {
+          "skill": "ms sql",
+          "vacancies": 8
+        },
+        {
+          "skill": "ai",
+          "vacancies": 7
+        },
+        {
+          "skill": "it",
+          "vacancies": 7
+        },
+        {
+          "skill": "mlflow",
+          "vacancies": 7
+        },
+        {
+          "skill": "нейронные сети",
+          "vacancies": 7
+        },
+        {
+          "skill": "clickhouse",
+          "vacancies": 6
+        },
+        {
+          "skill": "keras",
+          "vacancies": 6
+        },
+        {
+          "skill": "kubernetes",
+          "vacancies": 6
+        },
+        {
+          "skill": "mysql",
+          "vacancies": 6
+        },
+        {
+          "skill": "pyspark",
+          "vacancies": 6
+        },
+        {
+          "skill": "аналитические исследования",
+          "vacancies": 6
+        },
+        {
+          "skill": "работа с большим объемом информации",
+          "vacancies": 6
+        },
+        {
+          "skill": "greenplum",
+          "vacancies": 5
+        },
+        {
+          "skill": "java",
+          "vacancies": 5
+        },
+        {
+          "skill": "power bi",
+          "vacancies": 5
+        },
+        {
+          "skill": "scikit-learn",
+          "vacancies": 5
+        },
+        {
+          "skill": "аналитика",
+          "vacancies": 5
+        },
+        {
+          "skill": "разработка поисковых технологий",
+          "vacancies": 5
+        },
+        {
+          "skill": "разработка технических заданий",
+          "vacancies": 5
+        },
+        {
+          "skill": "субд",
+          "vacancies": 5
+        },
+        {
+          "skill": "управление проектами",
+          "vacancies": 5
+        },
+        {
+          "skill": "управление рисками",
+          "vacancies": 5
+        },
+        {
+          "skill": "a/b тесты",
+          "vacancies": 4
+        },
+        {
+          "skill": "atlassian jira",
+          "vacancies": 4
+        },
+        {
+          "skill": "dl",
+          "vacancies": 4
+        },
+        {
+          "skill": "ds",
+          "vacancies": 4
+        },
+        {
+          "skill": "dwh",
+          "vacancies": 4
+        },
+        {
+          "skill": "fastapi",
+          "vacancies": 4
+        },
+        {
+          "skill": "gitlab",
+          "vacancies": 4
+        },
+        {
+          "skill": "ms powerpoint",
+          "vacancies": 4
+        },
+        {
+          "skill": "oracle",
+          "vacancies": 4
+        },
+        {
+          "skill": "sas",
+          "vacancies": 4
+        },
+        {
+          "skill": "алгоритмы",
+          "vacancies": 4
+        },
+        {
+          "skill": "анализ рисков",
+          "vacancies": 4
+        },
+        {
+          "skill": "бизнес-анализ",
+          "vacancies": 4
+        },
+        {
+          "skill": "деловая коммуникация",
+          "vacancies": 4
+        },
+        {
+          "skill": "информационные технологии",
+          "vacancies": 4
+        },
+        {
+          "skill": "лидерство",
+          "vacancies": 4
+        },
+        {
+          "skill": "прогнозирование",
+          "vacancies": 4
+        },
+        {
+          "skill": "проектный менеджмент",
+          "vacancies": 4
+        },
+        {
+          "skill": "работа с базами данных",
+          "vacancies": 4
+        },
+        {
+          "skill": "разработка нового продукта",
+          "vacancies": 4
+        },
+        {
+          "skill": "теория вероятностей",
+          "vacancies": 4
+        },
+        {
+          "skill": "agile project management",
+          "vacancies": 3
+        },
+        {
+          "skill": "apache airflow",
+          "vacancies": 3
+        },
+        {
+          "skill": "api",
+          "vacancies": 3
+        },
+        {
+          "skill": "classic ml",
+          "vacancies": 3
+        },
+        {
+          "skill": "cv",
+          "vacancies": 3
+        },
+        {
+          "skill": "data scientist",
+          "vacancies": 3
+        },
+        {
+          "skill": "go",
+          "vacancies": 3
+        },
+        {
+          "skill": "javascript",
+          "vacancies": 3
+        },
+        {
+          "skill": "llm",
+          "vacancies": 3
+        },
+        {
+          "skill": "mlops",
+          "vacancies": 3
+        },
+        {
+          "skill": "nosql",
+          "vacancies": 3
+        },
+        {
+          "skill": "pd, lgd, ead",
+          "vacancies": 3
+        },
+        {
+          "skill": "project management",
+          "vacancies": 3
+        },
+        {
+          "skill": "r",
+          "vacancies": 3
+        },
+        {
+          "skill": "rest api",
+          "vacancies": 3
+        },
+        {
+          "skill": "rnd",
+          "vacancies": 3
+        },
+        {
+          "skill": "scala",
+          "vacancies": 3
+        },
+        {
+          "skill": "искусственный интеллект",
+          "vacancies": 3
+        },
+        {
+          "skill": "кредитные риски",
+          "vacancies": 3
+        },
+        {
+          "skill": "моделирование",
+          "vacancies": 3
+        },
+        {
+          "skill": "обучение и развитие",
+          "vacancies": 3
+        },
+        {
+          "skill": "оценка рисков",
+          "vacancies": 3
+        },
+        {
+          "skill": "портфельные риски",
+          "vacancies": 3
+        },
+        {
+          "skill": "руководство коллективом",
+          "vacancies": 3
+        },
+        {
+          "skill": "управление командой",
+          "vacancies": 3
+        },
+        {
+          "skill": "analysis",
+          "vacancies": 2
+        },
+        {
+          "skill": "atlassian confluence",
+          "vacancies": 2
+        },
+        {
+          "skill": "bpmn",
+          "vacancies": 2
+        },
+        {
+          "skill": "catboost",
+          "vacancies": 2
+        },
+        {
+          "skill": "clearml",
+          "vacancies": 2
+        },
+        {
+          "skill": "cuda",
+          "vacancies": 2
+        },
+        {
+          "skill": "data mining",
+          "vacancies": 2
+        },
+        {
+          "skill": "debian",
+          "vacancies": 2
+        },
+        {
+          "skill": "devops",
+          "vacancies": 2
+        },
+        {
+          "skill": "django framework",
+          "vacancies": 2
+        },
+        {
+          "skill": "elk",
+          "vacancies": 2
+        },
+        {
+          "skill": "figma",
+          "vacancies": 2
+        },
+        {
+          "skill": "gd",
+          "vacancies": 2
+        },
+        {
+          "skill": "generative design",
+          "vacancies": 2
+        },
+        {
+          "skill": "http",
+          "vacancies": 2
+        },
+        {
+          "skill": "jira",
+          "vacancies": 2
+        },
+        {
+          "skill": "kvm",
+          "vacancies": 2
+        },
+        {
+          "skill": "lgd",
+          "vacancies": 2
+        },
+        {
+          "skill": "mle",
+          "vacancies": 2
+        },
+        {
+          "skill": "mongodb",
+          "vacancies": 2
+        },
+        {
+          "skill": "ms excel",
+          "vacancies": 2
+        },
+        {
+          "skill": "ms office",
+          "vacancies": 2
+        },
+        {
+          "skill": "mssql",
+          "vacancies": 2
+        },
+        {
+          "skill": "node.js",
+          "vacancies": 2
+        },
+        {
+          "skill": "people management",
+          "vacancies": 2
+        },
+        {
+          "skill": "product management",
+          "vacancies": 2
+        },
+        {
+          "skill": "qa",
+          "vacancies": 2
+        },
+        {
+          "skill": "rabbitmq",
+          "vacancies": 2
+        },
+        {
+          "skill": "react",
+          "vacancies": 2
+        },
+        {
+          "skill": "research",
+          "vacancies": 2
+        },
+        {
+          "skill": "scipy",
+          "vacancies": 2
+        },
+        {
+          "skill": "typescript",
+          "vacancies": 2
+        },
+        {
+          "skill": "vertica",
+          "vacancies": 2
+        },
+        {
+          "skill": "xgboost",
+          "vacancies": 2
+        },
+        {
+          "skill": "yolo",
+          "vacancies": 2
+        },
+        {
+          "skill": "администрирование серверов linux",
+          "vacancies": 2
+        },
+        {
+          "skill": "генеративный дизайн",
+          "vacancies": 2
+        },
+        {
+          "skill": "контроль качества",
+          "vacancies": 2
+        },
+        {
+          "skill": "линейная алгебра",
+          "vacancies": 2
+        },
+        {
+          "skill": "микросервисы",
+          "vacancies": 2
+        },
+        {
+          "skill": "навыки презентации",
+          "vacancies": 2
+        },
+        {
+          "skill": "нейросети",
+          "vacancies": 2
+        },
+        {
+          "skill": "ооп",
+          "vacancies": 2
+        },
+        {
+          "skill": "организаторские навыки",
+          "vacancies": 2
+        },
+        {
+          "skill": "пвр",
+          "vacancies": 2
+        },
+        {
+          "skill": "поиск",
+          "vacancies": 2
+        },
+        {
+          "skill": "постановка задач разработчикам",
+          "vacancies": 2
+        },
+        {
+          "skill": "проведение презентаций",
+          "vacancies": 2
+        },
+        {
+          "skill": "риск-менеджмент",
+          "vacancies": 2
+        },
+        {
+          "skill": "сбор и анализ информации",
+          "vacancies": 2
+        },
+        {
+          "skill": "статистика",
+          "vacancies": 2
+        },
+        {
+          "skill": "техническая документация",
+          "vacancies": 2
+        },
+        {
+          "skill": "торговая площадка",
+          "vacancies": 2
+        },
+        {
+          "skill": "умение принимать решения",
+          "vacancies": 2
+        },
+        {
+          "skill": "управление процессами",
+          "vacancies": 2
+        },
+        {
+          "skill": "финансовое моделирование",
+          "vacancies": 2
+        },
+        {
+          "skill": "1с программирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "a/b-experiments",
+          "vacancies": 1
+        },
+        {
+          "skill": "ad hoc analysis",
+          "vacancies": 1
+        },
+        {
+          "skill": "adb",
+          "vacancies": 1
+        },
+        {
+          "skill": "ai/ml",
+          "vacancies": 1
+        },
+        {
+          "skill": "amocrm",
+          "vacancies": 1
+        },
+        {
+          "skill": "android",
+          "vacancies": 1
+        },
+        {
+          "skill": "ansible",
+          "vacancies": 1
+        },
+        {
+          "skill": "apache",
+          "vacancies": 1
+        },
+        {
+          "skill": "apache kafka",
+          "vacancies": 1
+        },
+        {
+          "skill": "appium",
+          "vacancies": 1
+        },
+        {
+          "skill": "architect",
+          "vacancies": 1
+        },
+        {
+          "skill": "arduino",
+          "vacancies": 1
+        },
+        {
+          "skill": "arenadata catalog",
+          "vacancies": 1
+        },
+        {
+          "skill": "arima",
+          "vacancies": 1
+        },
+        {
+          "skill": "arm",
+          "vacancies": 1
+        },
+        {
+          "skill": "artificial intelligence",
+          "vacancies": 1
+        },
+        {
+          "skill": "asr",
+          "vacancies": 1
+        },
+        {
+          "skill": "asyncio",
+          "vacancies": 1
+        },
+        {
+          "skill": "aws",
+          "vacancies": 1
+        },
+        {
+          "skill": "b2b",
+          "vacancies": 1
+        },
+        {
+          "skill": "b2b marketing",
+          "vacancies": 1
+        },
+        {
+          "skill": "bcbs",
+          "vacancies": 1
+        },
+        {
+          "skill": "bi",
+          "vacancies": 1
+        },
+        {
+          "skill": "bios",
+          "vacancies": 1
+        },
+        {
+          "skill": "business development",
+          "vacancies": 1
+        },
+        {
+          "skill": "c/c++",
+          "vacancies": 1
+        },
+        {
+          "skill": "caffe",
+          "vacancies": 1
+        },
+        {
+          "skill": "cassandra",
+          "vacancies": 1
+        },
+        {
+          "skill": "chatgpt",
+          "vacancies": 1
+        },
+        {
+          "skill": "cloud environment",
+          "vacancies": 1
+        },
+        {
+          "skill": "computer vision engineer",
+          "vacancies": 1
+        },
+        {
+          "skill": "confluence",
+          "vacancies": 1
+        },
+        {
+          "skill": "cpo",
+          "vacancies": 1
+        },
+        {
+          "skill": "dagster",
+          "vacancies": 1
+        },
+        {
+          "skill": "dama dmbok",
+          "vacancies": 1
+        },
+        {
+          "skill": "data architecture",
+          "vacancies": 1
+        },
+        {
+          "skill": "data engineer",
+          "vacancies": 1
+        },
+        {
+          "skill": "data lake",
+          "vacancies": 1
+        },
+        {
+          "skill": "data scientis",
+          "vacancies": 1
+        },
+        {
+          "skill": "data warehouse",
+          "vacancies": 1
+        },
+        {
+          "skill": "dataops",
+          "vacancies": 1
+        },
+        {
+          "skill": "db2",
+          "vacancies": 1
+        },
+        {
+          "skill": "dbt",
+          "vacancies": 1
+        },
+        {
+          "skill": "ddd",
+          "vacancies": 1
+        },
+        {
+          "skill": "deeplab",
+          "vacancies": 1
+        },
+        {
+          "skill": "deepstream plugins",
+          "vacancies": 1
+        },
+        {
+          "skill": "ds/ml",
+          "vacancies": 1
+        },
+        {
+          "skill": "ead",
+          "vacancies": 1
+        },
+        {
+          "skill": "elasticsearch",
+          "vacancies": 1
+        },
+        {
+          "skill": "elt",
+          "vacancies": 1
+        },
+        {
+          "skill": "english",
+          "vacancies": 1
+        },
+        {
+          "skill": "excel",
+          "vacancies": 1
+        },
+        {
+          "skill": "face analyze",
+          "vacancies": 1
+        },
+        {
+          "skill": "face detection",
+          "vacancies": 1
+        },
+        {
+          "skill": "firebirdsql",
+          "vacancies": 1
+        },
+        {
+          "skill": "gan",
+          "vacancies": 1
+        },
+        {
+          "skill": "gdal",
+          "vacancies": 1
+        },
+        {
+          "skill": "geopandas",
+          "vacancies": 1
+        },
+        {
+          "skill": "geopy",
+          "vacancies": 1
+        },
+        {
+          "skill": "gis",
+          "vacancies": 1
+        },
+        {
+          "skill": "gnn",
+          "vacancies": 1
+        },
+        {
+          "skill": "google analytics",
+          "vacancies": 1
+        },
+        {
+          "skill": "grafana",
+          "vacancies": 1
+        },
+        {
+          "skill": "graph neural networks",
+          "vacancies": 1
+        },
+        {
+          "skill": "graph theory",
+          "vacancies": 1
+        },
+        {
+          "skill": "graphql",
+          "vacancies": 1
+        },
+        {
+          "skill": "grass",
+          "vacancies": 1
+        },
+        {
+          "skill": "gstreamer",
+          "vacancies": 1
+        },
+        {
+          "skill": "gurobi",
+          "vacancies": 1
+        },
+        {
+          "skill": "hdfs",
+          "vacancies": 1
+        },
+        {
+          "skill": "huggingface",
+          "vacancies": 1
+        },
+        {
+          "skill": "ibm data stage",
+          "vacancies": 1
+        },
+        {
+          "skill": "ibm spss",
+          "vacancies": 1
+        },
+        {
+          "skill": "informatica enterprise data catalog",
+          "vacancies": 1
+        },
+        {
+          "skill": "informatica power center",
+          "vacancies": 1
+        },
+        {
+          "skill": "integrator",
+          "vacancies": 1
+        },
+        {
+          "skill": "ios",
+          "vacancies": 1
+        },
+        {
+          "skill": "itsm",
+          "vacancies": 1
+        },
+        {
+          "skill": "jenkins",
+          "vacancies": 1
+        },
+        {
+          "skill": "json",
+          "vacancies": 1
+        },
+        {
+          "skill": "jupiter lab",
+          "vacancies": 1
+        },
+        {
+          "skill": "jupyter",
+          "vacancies": 1
+        },
+        {
+          "skill": "kuberflow",
+          "vacancies": 1
+        },
+        {
+          "skill": "laravel",
+          "vacancies": 1
+        },
+        {
+          "skill": "lightgbm",
+          "vacancies": 1
+        },
+        {
+          "skill": "linux (centos)",
+          "vacancies": 1
+        },
+        {
+          "skill": "llm-driven",
+          "vacancies": 1
+        },
+        {
+          "skill": "lm",
+          "vacancies": 1
+        },
+        {
+          "skill": "lora",
+          "vacancies": 1
+        },
+        {
+          "skill": "machine learning engineer",
+          "vacancies": 1
+        },
+        {
+          "skill": "manual qa",
+          "vacancies": 1
+        },
+        {
+          "skill": "mathematical analysis",
+          "vacancies": 1
+        },
+        {
+          "skill": "mathematics",
+          "vacancies": 1
+        },
+        {
+          "skill": "matlab",
+          "vacancies": 1
+        },
+        {
+          "skill": "matplotlib",
+          "vacancies": 1
+        },
+        {
+          "skill": "microstrategy bi",
+          "vacancies": 1
+        },
+        {
+          "skill": "mindjourney",
+          "vacancies": 1
+        },
+        {
+          "skill": "ml ops",
+          "vacancies": 1
+        },
+        {
+          "skill": "ml модели",
+          "vacancies": 1
+        },
+        {
+          "skill": "ml-библиотеки",
+          "vacancies": 1
+        },
+        {
+          "skill": "mobilenet",
+          "vacancies": 1
+        },
+        {
+          "skill": "mobx",
+          "vacancies": 1
+        },
+        {
+          "skill": "modelops",
+          "vacancies": 1
+        },
+        {
+          "skill": "ms project",
+          "vacancies": 1
+        },
+        {
+          "skill": "ms sql server",
+          "vacancies": 1
+        },
+        {
+          "skill": "ner",
+          "vacancies": 1
+        },
+        {
+          "skill": "neural nets",
+          "vacancies": 1
+        },
+        {
+          "skill": "next.js",
+          "vacancies": 1
+        },
+        {
+          "skill": "nginx",
+          "vacancies": 1
+        },
+        {
+          "skill": "nifi",
+          "vacancies": 1
+        },
+        {
+          "skill": "nlg",
+          "vacancies": 1
+        },
+        {
+          "skill": "nlu",
+          "vacancies": 1
+        },
+        {
+          "skill": "olap (online analytical processing)",
+          "vacancies": 1
+        },
+        {
+          "skill": "open metadata",
+          "vacancies": 1
+        },
+        {
+          "skill": "oracle database",
+          "vacancies": 1
+        },
+        {
+          "skill": "osm",
+          "vacancies": 1
+        },
+        {
+          "skill": "pd",
+          "vacancies": 1
+        },
+        {
+          "skill": "pentaho",
+          "vacancies": 1
+        },
+        {
+          "skill": "php",
+          "vacancies": 1
+        },
+        {
+          "skill": "plotly dash",
+          "vacancies": 1
+        },
+        {
+          "skill": "pmbok",
+          "vacancies": 1
+        },
+        {
+          "skill": "posgresql",
+          "vacancies": 1
+        },
+        {
+          "skill": "postgis",
+          "vacancies": 1
+        },
+        {
+          "skill": "postgres",
+          "vacancies": 1
+        },
+        {
+          "skill": "postman",
+          "vacancies": 1
+        },
+        {
+          "skill": "presale",
+          "vacancies": 1
+        },
+        {
+          "skill": "presto",
+          "vacancies": 1
+        },
+        {
+          "skill": "product owner",
+          "vacancies": 1
+        },
+        {
+          "skill": "pycharm",
+          "vacancies": 1
+        },
+        {
+          "skill": "python nltk",
+          "vacancies": 1
+        },
+        {
+          "skill": "pyton",
+          "vacancies": 1
+        },
+        {
+          "skill": "rag",
+          "vacancies": 1
+        },
+        {
+          "skill": "recommender systems",
+          "vacancies": 1
+        },
+        {
+          "skill": "redis",
+          "vacancies": 1
+        },
+        {
+          "skill": "redux",
+          "vacancies": 1
+        },
+        {
+          "skill": "resnet",
+          "vacancies": 1
+        },
+        {
+          "skill": "rest",
+          "vacancies": 1
+        },
+        {
+          "skill": "risk management",
+          "vacancies": 1
+        },
+        {
+          "skill": "rl",
+          "vacancies": 1
+        },
+        {
+          "skill": "roadmap",
+          "vacancies": 1
+        },
+        {
+          "skill": "ros",
+          "vacancies": 1
+        },
+        {
+          "skill": "ros2",
+          "vacancies": 1
+        },
+        {
+          "skill": "rust",
+          "vacancies": 1
+        },
+        {
+          "skill": "sap process integration",
+          "vacancies": 1
+        },
+        {
+          "skill": "scrum",
+          "vacancies": 1
+        },
+        {
+          "skill": "scypy",
+          "vacancies": 1
+        },
+        {
+          "skill": "search ranking",
+          "vacancies": 1
+        },
+        {
+          "skill": "shapely",
+          "vacancies": 1
+        },
+        {
+          "skill": "sklearn",
+          "vacancies": 1
+        },
+        {
+          "skill": "soap",
+          "vacancies": 1
+        },
+        {
+          "skill": "soft skills",
+          "vacancies": 1
+        },
+        {
+          "skill": "solid",
+          "vacancies": 1
+        },
+        {
+          "skill": "sparkml",
+          "vacancies": 1
+        },
+        {
+          "skill": "speech",
+          "vacancies": 1
+        },
+        {
+          "skill": "speech to text",
+          "vacancies": 1
+        },
+        {
+          "skill": "speechbrain",
+          "vacancies": 1
+        },
+        {
+          "skill": "spss",
+          "vacancies": 1
+        },
+        {
+          "skill": "ssis",
+          "vacancies": 1
+        },
+        {
+          "skill": "statistics",
+          "vacancies": 1
+        },
+        {
+          "skill": "streamlit",
+          "vacancies": 1
+        },
+        {
+          "skill": "t-sql",
+          "vacancies": 1
+        },
+        {
+          "skill": "tableau",
+          "vacancies": 1
+        },
+        {
+          "skill": "tarantool queue",
+          "vacancies": 1
+        },
+        {
+          "skill": "team lead",
+          "vacancies": 1
+        },
+        {
+          "skill": "teamleading",
+          "vacancies": 1
+        },
+        {
+          "skill": "tensorrt",
+          "vacancies": 1
+        },
+        {
+          "skill": "teradata",
+          "vacancies": 1
+        },
+        {
+          "skill": "text to speech",
+          "vacancies": 1
+        },
+        {
+          "skill": "torch",
+          "vacancies": 1
+        },
+        {
+          "skill": "u-net",
+          "vacancies": 1
+        },
+        {
+          "skill": "uefi",
+          "vacancies": 1
+        },
+        {
+          "skill": "ui",
+          "vacancies": 1
+        },
+        {
+          "skill": "uml",
+          "vacancies": 1
+        },
+        {
+          "skill": "unit testing",
+          "vacancies": 1
+        },
+        {
+          "skill": "ux",
+          "vacancies": 1
+        },
+        {
+          "skill": "virtualbox",
+          "vacancies": 1
+        },
+        {
+          "skill": "virtualization",
+          "vacancies": 1
+        },
+        {
+          "skill": "vmware",
+          "vacancies": 1
+        },
+        {
+          "skill": "voip",
+          "vacancies": 1
+        },
+        {
+          "skill": "vue.js",
+          "vacancies": 1
+        },
+        {
+          "skill": "windows",
+          "vacancies": 1
+        },
+        {
+          "skill": "yarn",
+          "vacancies": 1
+        },
+        {
+          "skill": "yolov8",
+          "vacancies": 1
+        },
+        {
+          "skill": "автоматизация процессов",
+          "vacancies": 1
+        },
+        {
+          "skill": "автоматизация тестирования",
+          "vacancies": 1
+        },
+        {
+          "skill": "автоматизация технологических процессов",
+          "vacancies": 1
+        },
+        {
+          "skill": "алгоритмы ml",
+          "vacancies": 1
+        },
+        {
+          "skill": "алгоритмы и структуры данных",
+          "vacancies": 1
+        },
+        {
+          "skill": "алерты",
+          "vacancies": 1
+        },
+        {
+          "skill": "анализ рынка",
+          "vacancies": 1
+        },
+        {
+          "skill": "анализ текстов",
+          "vacancies": 1
+        },
+        {
+          "skill": "анализ финансовых показателей",
+          "vacancies": 1
+        },
+        {
+          "skill": "аналитика продаж",
+          "vacancies": 1
+        },
+        {
+          "skill": "английский — b2 — средне-продвинутый",
+          "vacancies": 1
+        },
+        {
+          "skill": "асессор",
+          "vacancies": 1
+        },
+        {
+          "skill": "асинхронное программирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "база данных: olap",
+          "vacancies": 1
+        },
+        {
+          "skill": "базовая статистика",
+          "vacancies": 1
+        },
+        {
+          "skill": "библиотеки: statsmodels catboost glm",
+          "vacancies": 1
+        },
+        {
+          "skill": "бизнес-консультирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "бустинг",
+          "vacancies": 1
+        },
+        {
+          "skill": "бюджет",
+          "vacancies": 1
+        },
+        {
+          "skill": "бюджетирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "валидация моделей",
+          "vacancies": 1
+        },
+        {
+          "skill": "видеонаблюдение",
+          "vacancies": 1
+        },
+        {
+          "skill": "визуализация данных",
+          "vacancies": 1
+        },
+        {
+          "skill": "внедрение ci/cd",
+          "vacancies": 1
+        },
+        {
+          "skill": "вывод продукта на рынок",
+          "vacancies": 1
+        },
+        {
+          "skill": "геоданные",
+          "vacancies": 1
+        },
+        {
+          "skill": "гост",
+          "vacancies": 1
+        },
+        {
+          "skill": "грамотная речь",
+          "vacancies": 1
+        },
+        {
+          "skill": "грамотность",
+          "vacancies": 1
+        },
+        {
+          "skill": "дашборды",
+          "vacancies": 1
+        },
+        {
+          "skill": "деловая переписка",
+          "vacancies": 1
+        },
+        {
+          "skill": "дзз",
+          "vacancies": 1
+        },
+        {
+          "skill": "дистанционное обучение",
+          "vacancies": 1
+        },
+        {
+          "skill": "документация функциональных требований",
+          "vacancies": 1
+        },
+        {
+          "skill": "запуск новых продуктов",
+          "vacancies": 1
+        },
+        {
+          "skill": "знание основных нейросетевых архитектур",
+          "vacancies": 1
+        },
+        {
+          "skill": "ии",
+          "vacancies": 1
+        },
+        {
+          "skill": "инновационный менеджмент",
+          "vacancies": 1
+        },
+        {
+          "skill": "китайский язык",
+          "vacancies": 1
+        },
+        {
+          "skill": "кластерный анализ",
+          "vacancies": 1
+        },
+        {
+          "skill": "количественные исследования",
+          "vacancies": 1
+        },
+        {
+          "skill": "коммуникабельность",
+          "vacancies": 1
+        },
+        {
+          "skill": "компьютерное зрение",
+          "vacancies": 1
+        },
+        {
+          "skill": "линейное программирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "мl",
+          "vacancies": 1
+        },
+        {
+          "skill": "макросы",
+          "vacancies": 1
+        },
+        {
+          "skill": "математические модели",
+          "vacancies": 1
+        },
+        {
+          "skill": "микропроцессоры",
+          "vacancies": 1
+        },
+        {
+          "skill": "микроэлектроника",
+          "vacancies": 1
+        },
+        {
+          "skill": "модели оценки кредитных рисков",
+          "vacancies": 1
+        },
+        {
+          "skill": "моделирование pd",
+          "vacancies": 1
+        },
+        {
+          "skill": "моделирование бизнес процессов",
+          "vacancies": 1
+        },
+        {
+          "skill": "модель вероятности дефолта",
+          "vacancies": 1
+        },
+        {
+          "skill": "модель прогнозирования потерь",
+          "vacancies": 1
+        },
+        {
+          "skill": "мониторинг моделей",
+          "vacancies": 1
+        },
+        {
+          "skill": "мотивация персонала",
+          "vacancies": 1
+        },
+        {
+          "skill": "навыки планирования",
+          "vacancies": 1
+        },
+        {
+          "skill": "написание научных статей",
+          "vacancies": 1
+        },
+        {
+          "skill": "настройка серверов apache",
+          "vacancies": 1
+        },
+        {
+          "skill": "нейросеть",
+          "vacancies": 1
+        },
+        {
+          "skill": "нейрочипы",
+          "vacancies": 1
+        },
+        {
+          "skill": "нефункциональные требования",
+          "vacancies": 1
+        },
+        {
+          "skill": "обучение",
+          "vacancies": 1
+        },
+        {
+          "skill": "обучение пользователей",
+          "vacancies": 1
+        },
+        {
+          "skill": "обучение сотрудников",
+          "vacancies": 1
+        },
+        {
+          "skill": "оптимизация бизнес-процессов",
+          "vacancies": 1
+        },
+        {
+          "skill": "ориентация на результат",
+          "vacancies": 1
+        },
+        {
+          "skill": "ос",
+          "vacancies": 1
+        },
+        {
+          "skill": "отчетность",
+          "vacancies": 1
+        },
+        {
+          "skill": "оценка прогнозируемого кредитного риска",
+          "vacancies": 1
+        },
+        {
+          "skill": "подбор персонала",
+          "vacancies": 1
+        },
+        {
+          "skill": "подготовка метрик",
+          "vacancies": 1
+        },
+        {
+          "skill": "пресейлы",
+          "vacancies": 1
+        },
+        {
+          "skill": "продуктовые гипотезы",
+          "vacancies": 1
+        },
+        {
+          "skill": "работа в команде",
+          "vacancies": 1
+        },
+        {
+          "skill": "работа с банками",
+          "vacancies": 1
+        },
+        {
+          "skill": "разработка",
+          "vacancies": 1
+        },
+        {
+          "skill": "разработка бизнес-требований к системе",
+          "vacancies": 1
+        },
+        {
+          "skill": "разработка и внедрение политик и процедур",
+          "vacancies": 1
+        },
+        {
+          "skill": "разработка инструкций",
+          "vacancies": 1
+        },
+        {
+          "skill": "разработка концепции",
+          "vacancies": 1
+        },
+        {
+          "skill": "разработка по",
+          "vacancies": 1
+        },
+        {
+          "skill": "разработка стратегии продвижения продуктов",
+          "vacancies": 1
+        },
+        {
+          "skill": "регрессионный анализ",
+          "vacancies": 1
+        },
+        {
+          "skill": "решение проблем",
+          "vacancies": 1
+        },
+        {
+          "skill": "ручное тестирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "сlickhouse",
+          "vacancies": 1
+        },
+        {
+          "skill": "сбор требований",
+          "vacancies": 1
+        },
+        {
+          "skill": "система принятия решения",
+          "vacancies": 1
+        },
+        {
+          "skill": "системная интеграция",
+          "vacancies": 1
+        },
+        {
+          "skill": "системный анализ",
+          "vacancies": 1
+        },
+        {
+          "skill": "скоринги",
+          "vacancies": 1
+        },
+        {
+          "skill": "способность обучать других",
+          "vacancies": 1
+        },
+        {
+          "skill": "стратегический менеджмент",
+          "vacancies": 1
+        },
+        {
+          "skill": "стратегия развития",
+          "vacancies": 1
+        },
+        {
+          "skill": "субдд: ms sql postgresql oracle",
+          "vacancies": 1
+        },
+        {
+          "skill": "тестирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "тестирование пользовательского интерфейса",
+          "vacancies": 1
+        },
+        {
+          "skill": "удаленная работа",
+          "vacancies": 1
+        },
+        {
+          "skill": "умная камера",
+          "vacancies": 1
+        },
+        {
+          "skill": "управление бизнес процессами",
+          "vacancies": 1
+        },
+        {
+          "skill": "управление качеством",
+          "vacancies": 1
+        },
+        {
+          "skill": "усидчивость",
+          "vacancies": 1
+        },
+        {
+          "skill": "функциональные требования",
+          "vacancies": 1
+        },
+        {
+          "skill": "хранилища данных",
+          "vacancies": 1
+        },
+        {
+          "skill": "ценообразование",
+          "vacancies": 1
+        },
+        {
+          "skill": "эконометрика",
+          "vacancies": 1
+        },
+        {
+          "skill": "экономический анализ",
+          "vacancies": 1
+        },
+        {
+          "skill": "языковые модели",
+          "vacancies": 1
+        }
+      ]
+    },
+    {
+      "region": "Санкт-Петербург",
+      "vacancies": 58,
+      "with_skills": 31,
+      "with_any_salary": 11,
+      "with_salary": 8,
+      "median_salary": 200000.0,
+      "q25": 118750.0,
+      "q75": 352500.0,
+      "skill_frequencies": [
+        {
+          "skill": "python",
+          "vacancies": 16
+        },
+        {
+          "skill": "pytorch",
+          "vacancies": 10
+        },
+        {
+          "skill": "machine learning",
+          "vacancies": 8
+        },
+        {
+          "skill": "sql",
+          "vacancies": 6
+        },
+        {
+          "skill": "nlp",
+          "vacancies": 5
+        },
+        {
+          "skill": "tensorflow",
+          "vacancies": 5
+        },
+        {
+          "skill": "data science",
+          "vacancies": 4
+        },
+        {
+          "skill": "keras",
+          "vacancies": 4
+        },
+        {
+          "skill": "ml",
+          "vacancies": 4
+        },
+        {
+          "skill": "opencv",
+          "vacancies": 4
+        },
+        {
+          "skill": "английский язык",
+          "vacancies": 4
+        },
+        {
+          "skill": "linux",
+          "vacancies": 3
+        },
+        {
+          "skill": "искусственный интеллект",
+          "vacancies": 3
+        },
+        {
+          "skill": "c++",
+          "vacancies": 2
+        },
+        {
+          "skill": "computer vision",
+          "vacancies": 2
+        },
+        {
+          "skill": "deep learning",
+          "vacancies": 2
+        },
+        {
+          "skill": "hadoop",
+          "vacancies": 2
+        },
+        {
+          "skill": "javascript",
+          "vacancies": 2
+        },
+        {
+          "skill": "matlab",
+          "vacancies": 2
+        },
+        {
+          "skill": "react",
+          "vacancies": 2
+        },
+        {
+          "skill": "spark",
+          "vacancies": 2
+        },
+        {
+          "skill": "typescript",
+          "vacancies": 2
+        },
+        {
+          "skill": "нейронные сети",
+          "vacancies": 2
+        },
+        {
+          "skill": "разработка по",
+          "vacancies": 2
+        },
+        {
+          "skill": "a/b тесты",
+          "vacancies": 1
+        },
+        {
+          "skill": "agile project management",
+          "vacancies": 1
+        },
+        {
+          "skill": "ai",
+          "vacancies": 1
+        },
+        {
+          "skill": "arm",
+          "vacancies": 1
+        },
+        {
+          "skill": "big data",
+          "vacancies": 1
+        },
+        {
+          "skill": "business development",
+          "vacancies": 1
+        },
+        {
+          "skill": "c#",
+          "vacancies": 1
+        },
+        {
+          "skill": "c/c++",
+          "vacancies": 1
+        },
+        {
+          "skill": "check-list",
+          "vacancies": 1
+        },
+        {
+          "skill": "corporate finance",
+          "vacancies": 1
+        },
+        {
+          "skill": "data scientist",
+          "vacancies": 1
+        },
+        {
+          "skill": "django",
+          "vacancies": 1
+        },
+        {
+          "skill": "docker",
+          "vacancies": 1
+        },
+        {
+          "skill": "docker container",
+          "vacancies": 1
+        },
+        {
+          "skill": "economics",
+          "vacancies": 1
+        },
+        {
+          "skill": "embedded",
+          "vacancies": 1
+        },
+        {
+          "skill": "financial analysis",
+          "vacancies": 1
+        },
+        {
+          "skill": "frontend",
+          "vacancies": 1
+        },
+        {
+          "skill": "git",
+          "vacancies": 1
+        },
+        {
+          "skill": "go",
+          "vacancies": 1
+        },
+        {
+          "skill": "graphql",
+          "vacancies": 1
+        },
+        {
+          "skill": "grpc",
+          "vacancies": 1
+        },
+        {
+          "skill": "java",
+          "vacancies": 1
+        },
+        {
+          "skill": "kotlin",
+          "vacancies": 1
+        },
+        {
+          "skill": "l3",
+          "vacancies": 1
+        },
+        {
+          "skill": "machine learning engineer",
+          "vacancies": 1
+        },
+        {
+          "skill": "mathematical statistics",
+          "vacancies": 1
+        },
+        {
+          "skill": "mathematics",
+          "vacancies": 1
+        },
+        {
+          "skill": "mobx",
+          "vacancies": 1
+        },
+        {
+          "skill": "mui",
+          "vacancies": 1
+        },
+        {
+          "skill": "ner",
+          "vacancies": 1
+        },
+        {
+          "skill": "next.js",
+          "vacancies": 1
+        },
+        {
+          "skill": "nlp engineer",
+          "vacancies": 1
+        },
+        {
+          "skill": "node.js",
+          "vacancies": 1
+        },
+        {
+          "skill": "numpy",
+          "vacancies": 1
+        },
+        {
+          "skill": "object detection",
+          "vacancies": 1
+        },
+        {
+          "skill": "php",
+          "vacancies": 1
+        },
+        {
+          "skill": "qt",
+          "vacancies": 1
+        },
+        {
+          "skill": "r",
+          "vacancies": 1
+        },
+        {
+          "skill": "redux",
+          "vacancies": 1
+        },
+        {
+          "skill": "rest/soap",
+          "vacancies": 1
+        },
+        {
+          "skill": "sap",
+          "vacancies": 1
+        },
+        {
+          "skill": "scala",
+          "vacancies": 1
+        },
+        {
+          "skill": "semantic segmentation libraries",
+          "vacancies": 1
+        },
+        {
+          "skill": "sklearn",
+          "vacancies": 1
+        },
+        {
+          "skill": "speech",
+          "vacancies": 1
+        },
+        {
+          "skill": "speechbrain",
+          "vacancies": 1
+        },
+        {
+          "skill": "spring framework",
+          "vacancies": 1
+        },
+        {
+          "skill": "storage",
+          "vacancies": 1
+        },
+        {
+          "skill": "unit testing",
+          "vacancies": 1
+        },
+        {
+          "skill": "unix",
+          "vacancies": 1
+        },
+        {
+          "skill": "voice assistant",
+          "vacancies": 1
+        },
+        {
+          "skill": "yolo",
+          "vacancies": 1
+        },
+        {
+          "skill": "автоматизация технологических процессов",
+          "vacancies": 1
+        },
+        {
+          "skill": "аналитика",
+          "vacancies": 1
+        },
+        {
+          "skill": "аналитическое мышление",
+          "vacancies": 1
+        },
+        {
+          "skill": "базы данных",
+          "vacancies": 1
+        },
+        {
+          "skill": "бизнес-консультирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "ведение переговоров",
+          "vacancies": 1
+        },
+        {
+          "skill": "грамотная речь",
+          "vacancies": 1
+        },
+        {
+          "skill": "документальное сопровождение",
+          "vacancies": 1
+        },
+        {
+          "skill": "ии",
+          "vacancies": 1
+        },
+        {
+          "skill": "информационные технологии",
+          "vacancies": 1
+        },
+        {
+          "skill": "математический анализ",
+          "vacancies": 1
+        },
+        {
+          "skill": "машинное обучение",
+          "vacancies": 1
+        },
+        {
+          "skill": "обучение и развитие",
+          "vacancies": 1
+        },
+        {
+          "skill": "ооп",
+          "vacancies": 1
+        },
+        {
+          "skill": "проведение презентаций",
+          "vacancies": 1
+        },
+        {
+          "skill": "проведение тестирований",
+          "vacancies": 1
+        },
+        {
+          "skill": "прогнозирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "проектирование пользовательских интерфейсов",
+          "vacancies": 1
+        },
+        {
+          "skill": "работа в команде",
+          "vacancies": 1
+        },
+        {
+          "skill": "руководство командой разработчиков",
+          "vacancies": 1
+        },
+        {
+          "skill": "статистика",
+          "vacancies": 1
+        },
+        {
+          "skill": "схд",
+          "vacancies": 1
+        },
+        {
+          "skill": "тестирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "тестирование пользовательского интерфейса",
+          "vacancies": 1
+        },
+        {
+          "skill": "техники тест-дизайна",
+          "vacancies": 1
+        },
+        {
+          "skill": "точность и внимательность к деталям",
+          "vacancies": 1
+        },
+        {
+          "skill": "удаленная работа",
+          "vacancies": 1
+        },
+        {
+          "skill": "управление проектами",
+          "vacancies": 1
+        },
+        {
+          "skill": "управление разработкой",
+          "vacancies": 1
+        },
+        {
+          "skill": "управление рисками",
+          "vacancies": 1
+        },
+        {
+          "skill": "функциональное тестирование",
+          "vacancies": 1
+        }
+      ]
+    },
+    {
+      "region": "Новосибирск",
+      "vacancies": 16,
+      "with_skills": 11,
+      "with_any_salary": 8,
+      "with_salary": 8,
+      "median_salary": 137500.0,
+      "q25": 97500.0,
+      "q75": 250000.0,
+      "skill_frequencies": [
+        {
+          "skill": "python",
+          "vacancies": 9
+        },
+        {
+          "skill": "pytorch",
+          "vacancies": 3
+        },
+        {
+          "skill": "computer vision",
+          "vacancies": 2
+        },
+        {
+          "skill": "git",
+          "vacancies": 2
+        },
+        {
+          "skill": "linux",
+          "vacancies": 2
+        },
+        {
+          "skill": "ms sql",
+          "vacancies": 2
+        },
+        {
+          "skill": "postgresql",
+          "vacancies": 2
+        },
+        {
+          "skill": "sql",
+          "vacancies": 2
+        },
+        {
+          "skill": "ai",
+          "vacancies": 1
+        },
+        {
+          "skill": "airflow",
+          "vacancies": 1
+        },
+        {
+          "skill": "api",
+          "vacancies": 1
+        },
+        {
+          "skill": "atlassian jira",
+          "vacancies": 1
+        },
+        {
+          "skill": "bash",
+          "vacancies": 1
+        },
+        {
+          "skill": "business development",
+          "vacancies": 1
+        },
+        {
+          "skill": "c++",
+          "vacancies": 1
+        },
+        {
+          "skill": "crm",
+          "vacancies": 1
+        },
+        {
+          "skill": "data lakehouse",
+          "vacancies": 1
+        },
+        {
+          "skill": "data science",
+          "vacancies": 1
+        },
+        {
+          "skill": "dbt",
+          "vacancies": 1
+        },
+        {
+          "skill": "django framework",
+          "vacancies": 1
+        },
+        {
+          "skill": "dwh",
+          "vacancies": 1
+        },
+        {
+          "skill": "erp",
+          "vacancies": 1
+        },
+        {
+          "skill": "etl",
+          "vacancies": 1
+        },
+        {
+          "skill": "hadoop",
+          "vacancies": 1
+        },
+        {
+          "skill": "hdfs",
+          "vacancies": 1
+        },
+        {
+          "skill": "java",
+          "vacancies": 1
+        },
+        {
+          "skill": "keras",
+          "vacancies": 1
+        },
+        {
+          "skill": "matlab",
+          "vacancies": 1
+        },
+        {
+          "skill": "ml",
+          "vacancies": 1
+        },
+        {
+          "skill": "ms visual studio",
+          "vacancies": 1
+        },
+        {
+          "skill": "mysql",
+          "vacancies": 1
+        },
+        {
+          "skill": "nlp",
+          "vacancies": 1
+        },
+        {
+          "skill": "numpy",
+          "vacancies": 1
+        },
+        {
+          "skill": "opencv",
+          "vacancies": 1
+        },
+        {
+          "skill": "postgressql",
+          "vacancies": 1
+        },
+        {
+          "skill": "power bi",
+          "vacancies": 1
+        },
+        {
+          "skill": "powerbi",
+          "vacancies": 1
+        },
+        {
+          "skill": "rest",
+          "vacancies": 1
+        },
+        {
+          "skill": "rest api",
+          "vacancies": 1
+        },
+        {
+          "skill": "s3",
+          "vacancies": 1
+        },
+        {
+          "skill": "scala",
+          "vacancies": 1
+        },
+        {
+          "skill": "sklearn",
+          "vacancies": 1
+        },
+        {
+          "skill": "soap",
+          "vacancies": 1
+        },
+        {
+          "skill": "spark",
+          "vacancies": 1
+        },
+        {
+          "skill": "tensorflow",
+          "vacancies": 1
+        },
+        {
+          "skill": "xml",
+          "vacancies": 1
+        },
+        {
+          "skill": "автоматизация технологических процессов",
+          "vacancies": 1
+        },
+        {
+          "skill": "алгоритмы",
+          "vacancies": 1
+        },
+        {
+          "skill": "английский язык",
+          "vacancies": 1
+        },
+        {
+          "skill": "базы данных",
+          "vacancies": 1
+        },
+        {
+          "skill": "бизнес-консультирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "информационные технологии",
+          "vacancies": 1
+        },
+        {
+          "skill": "компьютерное зрение",
+          "vacancies": 1
+        },
+        {
+          "skill": "математическое моделирование",
+          "vacancies": 1
+        },
+        {
+          "skill": "машинное обучение",
+          "vacancies": 1
+        },
+        {
+          "skill": "обработка изображений",
+          "vacancies": 1
+        },
+        {
+          "skill": "проведение презентаций",
+          "vacancies": 1
+        },
+        {
+          "skill": "техническое зрение",
+          "vacancies": 1
+        }
+      ]
+    }
+  ]
+}
+Experiment complete; the owned RustFS process has stopped.
